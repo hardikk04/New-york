@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.growth {
+  font-family: Growth;
+}
+
+.page1 {
+  background-image: url("https://big-apple-insider.vercel.app/images/1.webp");
+  background-size: cover;
+  background-position: center;
+}
