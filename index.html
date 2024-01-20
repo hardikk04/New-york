@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>New York</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -12,8 +13,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="page1 h-[100vh] w-full overflow-x-hidden">
+    <div class="main bg-[#EDEDED]">
+      <div class="page1 h-[100vh] w-full overflow-x-hidden relative">
         <div
           class="page1-overlay h-full w-full top-0 left-0 bg-black/50 px-[1.5vw]"
         >
@@ -46,6 +47,46 @@
           ></div>
         </div>
       </div>
+      <div class="page2 h-[90vh] w-full flex justify-center items-center">
+        <div class="page2-left h-[60vh] w-[65vh]">
+          <img
+            class="page2-img h-full w-full object-cover"
+            src="https://big-apple-insider.vercel.app/images/2.webp"
+            alt=""
+          />
+        </div>
+        <div
+          class="page2-right h-[60vh] w-[65vh] flex flex-col justify-between items-center"
+        >
+          <h1
+            class="uppercase text-[20vw] leading-none text-[#FA5A32] growth relative left-[-15%] whitespace-nowrap z-30"
+          >
+            TheBigApple
+          </h1>
+          <span
+            class="text-[.7vw] leading-[1.2] text-black/80 w-1/2 inline-block"
+            >Of all the metropolises in the world, none embodies the energy,
+            diversity, and dynamism of urban life quite like New York City.
+            Nicknamed the <span class="text-[#FA5A32]">'Big Apple'</span>, this
+            iconic metropolis is a magnet for millions from all corners of the
+            globe.</span
+          >
+
+          <span
+            class="text-[.7vw] leading-[1.2] text-black/80 w-1/2 inline-block"
+            >Beyond its imposing skyscrapers and hectic schedule, New York is a
+            mosaic of stories, cultures, and influences that have woven together
+            over the centuries to create a city unlike any other.</span
+          >
+        </div>
+      </div>
+      <div class="page3 h-[100vh] w-full flex justify-center items-center">
+        <img
+          class="page3-img h-[60vh] w-full object-cover"
+          src="https://big-apple-insider.vercel.app/images/3.webp"
+          alt=""
+        />
+      </div>
     </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
@@ -59,6 +100,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sheryjs/dist/Shery.js"
+    ></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
